@@ -45,4 +45,4 @@ Questa documentazione copre gli endpoint RESTful esposti dal plugin.
 - Base: `/webservice/restful/server.php`
 - Auth: `Authorization: Bearer <TOKEN>`
 - JSON in input/output
-- Ultimo update: 2025-08-28
+- Ultimo update: 2025-09-09
