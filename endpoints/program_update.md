@@ -5,7 +5,8 @@ Aggionra un Program (simple)
 ## Parametri
 - `programid` *(int, richiesto)* — es. system o coursecat
 - `fullname` *(string, richiesto)* — nome del programma
-- `idnumber` *(string, opzionale)* — identificativo univoco
+- `descriptio ` *(string, opzionale)* — descrizione del programma
+- `idnumber` *(string, opzionale, univoco)* — identificativo univoco
 - `public` *(bool, opzionale)* — default false
 
 ## Esempio
@@ -14,7 +15,8 @@ Aggionra un Program (simple)
     "programid": 220,
     "fullname": "Academy 2025",
     "idnumber": "PRG-2025",
-    "public": true
+    "public": true,
+    "description": "Lorem ipsum.."
 }
 ```
 
@@ -24,7 +26,8 @@ Aggionra un Program (simple)
     "programid": 220,
     "fullname": "Academy 2025",
     "idnumber": "PRG-2025",
-    "public": true
+    "public": true,
+    "description": "Lorem ipsum.."
 }
 ```
 
