@@ -33,6 +33,7 @@ Questa documentazione copre gli endpoint RESTful esposti dal plugin.
   - [delete_activity_from_course](./endpoints/delete_activity_from_course.md)
 
   - [program_create](./endpoints/program_create.md)
+  - [program_update](./endpoints/program_update.md)
   - [program_get](./endpoints/program_get.md)
   - [program_list](./endpoints/program_list.md)
   - [program_set_structure](./endpoints/program_set_structure.md)
@@ -45,4 +46,4 @@ Questa documentazione copre gli endpoint RESTful esposti dal plugin.
 - Base: `/webservice/restful/server.php`
 - Auth: `Authorization: Bearer <TOKEN>`
 - JSON in input/output
-- Ultimo update: 2025-09-09
+- Ultimo update: 2025-09-19
