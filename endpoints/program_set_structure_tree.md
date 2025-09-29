@@ -4,13 +4,15 @@ Imposta la struttura **ad albero** del Program (set + corsi), passando l’inter
 
 ## Parametri
 - `programid` *(int)*
-- `rootjson` *(string JSON)* — radice con `sequencetype`, opzionale `minprerequisites`, `children[]`
+- `rootjson` *(string JSON)* — radice con `sequencetype`, opzionale `minprerequisites`, `children[]`,
+- `replace` *(bool)*
 
 ## Esempio Body
 ```json
 {
   "programid": 42,
-  "rootjson": "{\"sequencetype\":\"allinanyorder\",\"children\":[{\"type\":\"set\",\"fullname\":\"Set A\",\"sequencetype\":\"allinorder\",\"children\":[{\"type\":\"course\",\"courseid\":123},{\"type\":\"course\",\"courseid\":124}]}]}"
+  "rootjson": "{\"sequencetype\":\"allinanyorder\",\"children\":[{\"type\":\"set\",\"fullname\":\"Set A\",\"sequencetype\":\"allinorder\",\"children\":[{\"type\":\"course\",\"courseid\":123},{\"type\":\"course\",\"courseid\":124}]}]}",
+  "replace": true
 }
 ```
 
@@ -55,6 +57,7 @@ Imposta la struttura **ad albero** del Program (set + corsi), passando l’inter
 - `minprerequisites` incluso solo se type=atleast
 - `children[].type`: set | course
 - `course` node richiede `courseid`
+- `replace` è un booleano (default = false) che forza la sovrascrittura dell'attuale alberatura
 - ID figli in `sequencejson` sono stringhe, come da UI nativa
 
 ## TODO
