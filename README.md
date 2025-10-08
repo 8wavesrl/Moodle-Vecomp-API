@@ -41,6 +41,7 @@ Questa documentazione copre gli endpoint RESTful esposti dal plugin.
   - [program_set_structure_tree](./endpoints/program_set_structure_tree.md)
   
   - [source_manual_allocate_users](./endpoints/source_manual_allocate_users.md)
+  - [get_user_progress](./endpoints/get_user_progress.md)
 
 
 ## Quick start
