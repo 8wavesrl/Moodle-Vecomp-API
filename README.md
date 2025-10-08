@@ -13,6 +13,7 @@ Questa documentazione copre gli endpoint RESTful esposti dal plugin.
   - [core_user_update_users](./endpoints/core_user_update_users.md)
   
   - [core_course_create_courses](./endpoints/core_course_create_courses.md)
+  - [create_courses_with_sections](./endpoints/create_courses_with_sections.md)
   - [core_course_delete_categories](./endpoints/core_course_delete_categories.md)
   - [core_course_delete_courses](./endpoints/core_course_delete_courses.md)
   - [core_course_delete_modules](./endpoints/core_course_delete_modules.md)
