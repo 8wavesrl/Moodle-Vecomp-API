@@ -27,21 +27,19 @@ Questa documentazione copre gli endpoint RESTful esposti dal plugin.
   - [core_course_search_courses](./endpoints/core_course_search_courses.md)
   - [core_course_update_categories](./endpoints/core_course_update_categories.md)
   - [core_course_update_courses](./endpoints/core_course_update_courses.md)
-  
   - [move_activity_between_courses](./endpoints/move_activity_between_courses.md)
   - [move_activity_within_section](./endpoints/move_activity_within_section.md)
   - [add_vimeoactivity_to_course](./endpoints/add_vimeoactivity_to_course.md)
   - [delete_activity_from_course](./endpoints/delete_activity_from_course.md)
-
   - [program_create](./endpoints/program_create.md)
   - [program_update](./endpoints/program_update.md)
   - [program_get](./endpoints/program_get.md)
   - [program_list](./endpoints/program_list.md)
   - [program_set_structure](./endpoints/program_set_structure.md)
   - [program_set_structure_tree](./endpoints/program_set_structure_tree.md)
-  
   - [source_manual_allocate_users](./endpoints/source_manual_allocate_users.md)
   - [get_user_progress](./endpoints/get_user_progress.md)
+  - [trigger_welcome] (./endpoints/trigger_welcome.md)
 
 
 ## Quick start
