@@ -8,6 +8,7 @@ Aggionra un Program (simple)
 - `descriptio ` *(string, opzionale)* — descrizione del programma
 - `idnumber` *(string, opzionale, univoco)* — identificativo univoco
 - `public` *(bool, opzionale)* — default false
+- `imagebase64` "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ....."
 
 ## Esempio
 ```json
@@ -16,7 +17,8 @@ Aggionra un Program (simple)
     "fullname": "Academy 2025",
     "idnumber": "PRG-2025",
     "public": true,
-    "description": "Lorem ipsum.."
+    "description": "Lorem ipsum..",
+    "imagebase64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ....."
 }
 ```
 

@@ -26,6 +26,7 @@ Crea un Program (metadati) ed eventualmente abilita le sorgenti di allocation.
   - `approval`
   - `cohort`
   - `udplans` (se presente)
+- `imagebase64` (immagine codificata in base64)
 
 ## Esempio
 ```json
@@ -36,7 +37,8 @@ Crea un Program (metadati) ed eventualmente abilita le sorgenti di allocation.
   "public": true,
   "programstart_type": "date",
   "programstart_date": 1767225600,
-  "sources": ["manual", "selfallocation"]
+  "sources": ["manual", "selfallocation"],
+  "imagebase64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ....."
 }
 ```
 
