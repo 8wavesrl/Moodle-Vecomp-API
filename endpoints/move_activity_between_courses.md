@@ -1,5 +1,5 @@
 
-# move_activity_between_courses
+# local_wsvecomp_move_activity_between_courses
 
 **Funzione:** `local_wsvecomp_move_activity_between_courses`  
 **Rotta:** `POST /webservice/restful/server.php/local_wsvecomp_move_activity_between_courses`  

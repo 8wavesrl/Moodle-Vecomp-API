@@ -1,5 +1,5 @@
 
-# delete_activity_from_course
+# local_wsvecomp_delete_activity_from_course
 
 **Funzione:** `local_wsvecomp_delete_activity_from_course`  
 **Rotta:** `POST /webservice/restful/server.php/local_wsvecomp_delete_activity_from_course`  

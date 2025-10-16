@@ -1,12 +1,12 @@
 
-# move_activity_within_section
+# local_wsvecomp_move_activity_within_section
 
 **Funzione:** `local_wsvecomp_move_activity_within_section`  
 **Rotta:** `POST /webservice/restful/server.php/local_wsvecomp_move_activity_within_section`  
 **Permessi:** `moodle/course:manageactivities`
 
 ## Descrizione
-Sposta/riordina un’attività nello stesso corso (o in un’altra sezione dello stesso corso) **senza** backup/restore.
+Sposta/riordina un’attività nello stesso corso (o in un’altra sezione dello stesso corso) **senza** backup/restore. In automatico le availability tra attività vengono resettate secondo la convenzione **tutte nell'ordine**
 
 ## Request
 **Body JSON**
@@ -31,6 +31,4 @@ Sposta/riordina un’attività nello stesso corso (o in un’altra sezione dello
 ```
 
 ## TODO
-- Gestire availabilty tra attività secondo il nuovo ordine.
-- Gestione automatica dei completion nei `enrol_programs` quando le attività dei corsi inclusi in un Program vengono spostate/copiate/eliminate.
 - Gestione notifiche utente.

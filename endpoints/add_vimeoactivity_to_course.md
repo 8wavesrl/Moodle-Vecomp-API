@@ -1,5 +1,5 @@
 
-# add_vimeoactivity_to_course
+# local_wsvecomp_add_vimeoactivity_to_course
 
 **Funzione:** `local_wsvecomp_add_vimeoactivity_to_course`  
 **Rotta:** `POST /webservice/restful/server.php/local_wsvecomp_add_vimeoactivity_to_course`  
