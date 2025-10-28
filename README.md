@@ -41,6 +41,7 @@ Questa documentazione copre gli endpoint RESTful esposti dal plugin.
   - [enrol_programs_source_manual_allocate_users](./endpoints/source_manual_allocate_users.md)
   - [local_wsvecomp_get_user_progress](./endpoints/get_user_progress.md)
   - [local_wsvecomp_trigger_welcome](./endpoints/trigger_welcome.md)
+  - [local_wsvecomp_program_fix_user_completion](./endpoints/program_fix_user_completion.md)
 
 
 ## Quick start
