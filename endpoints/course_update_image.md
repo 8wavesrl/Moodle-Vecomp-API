@@ -6,7 +6,7 @@
 
 ## Descrizione
 Permette di impostare l'immagine in evidenza di un corso. Va caricata la stringa base64 dell'immagine.
-Al termine del caricamente svuota la cache del corso per rendere l'immagine visibile fin da subito.
+Al termine del caricamente svuota automaticamente la cache del corso per rendere l'immagine visibile fin da subito.
 
 ---
 
