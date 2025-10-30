@@ -42,6 +42,7 @@ Questa documentazione copre gli endpoint RESTful esposti dal plugin.
   - [local_wsvecomp_get_user_progress](./endpoints/get_user_progress.md)
   - [local_wsvecomp_trigger_welcome](./endpoints/trigger_welcome.md)
   - [local_wsvecomp_program_fix_user_completion](./endpoints/program_fix_user_completion.md)
+  - [local_wsvecomp_course_update_image](./endpoints/course_update_image.md)
 
 
 ## Quick start
