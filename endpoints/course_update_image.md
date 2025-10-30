@@ -26,7 +26,7 @@ Il body deve contenere l’oggetto `data` che conterrà i parametri `courseid` e
     "data": {
         {
             "couseid": 1,
-            "couseimage": "/9j/7AARRHVja3kAAQAEAAAABgAA/+4ADkFkb2J.....",
+            "couseimage": "data:image/jpeg;base64,/9j/7AARRHVja3kAAQAEAAAABgAA/+4ADkFkb2J.....",
         }
     }
 }
